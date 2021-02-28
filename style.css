@@ -1,3 +1,9 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
 .header
 {
     max-height: 98px;
@@ -91,3 +97,86 @@
     color: red;
 }
 
+.slider-title
+{
+    margin-top: 99px;
+}
+
+.slider-bottom
+{
+    position: absolute;
+    bottom: 0;
+}
+
+.icon-wrap
+{
+    position: relative;
+}
+
+.icon-wrap .icon
+{
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.left-icon .icon
+{
+    left: 0px;
+}
+
+.left-icon input
+{
+    padding-left: 30px;
+}
+
+.btn-color
+{
+    background-color: #ffb60d;
+}
+
+#feature
+{   
+    background-image: url('assets/images/dish-918613_1920@1X.png');
+    height: 320px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.restaurents
+{
+    height: 165px;
+    width: 146px;
+}
+
+.services
+{
+    background-color: #f5f5f5;
+    height: 300px;
+}
+
+.service-icon
+{
+    height: 165px;
+    width: 146px;
+}
+
+.join
+{
+    background-color: white;
+    height: 450px;
+}
+
+.img-join
+{
+     width: 201px;
+     height: 227px;
+}
+
+.btn-join
+{
+    background-color: rgb(243, 162, 12);
+    border-radius: 8px;
+    padding: 10px 48px;
+}
