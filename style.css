@@ -1,0 +1,93 @@
+.header
+{
+    max-height: 98px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social-icon
+{
+    float: left;
+}
+
+.social-icon i
+{
+    font-weight: 500px;
+}
+
+.header-link
+{
+    display: inline-block;
+}
+
+.limo-icon
+{
+    display: flex;
+    justify-content: center;
+}
+
+.limo-img
+{
+    margin-top: -37px;
+    display: inline-block;
+    height: 65px;
+    width: 85px;
+}
+
+.search-space
+{
+    float: left;
+}
+
+.search-bar
+{
+    padding-left: 0;
+    margin-top: -35px;
+}
+
+#search-box
+{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+::placeholder
+{
+    color: black;
+}
+
+.search-bar-icon
+{
+    color: #0c0c0c;
+    float: right;
+}
+
+#slider
+{   
+    background-image: url('assets/images/dish-918613_1920@1X.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-menu
+{
+    background-color: rgb(199, 174, 57);
+}
+
+.nav-link
+{
+    color: black;
+}
+
+.nav-link:hover
+{
+    color: red;
+}
+

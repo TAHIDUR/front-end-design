@@ -12,8 +12,10 @@
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <l src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></l>
 
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css"></link>
 
     <!-- font awesome cdn -->
     <link href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
@@ -21,60 +23,73 @@
 </head>
 <body > 
 
-    <div style="
-    height: 100vh;
-    width: 100vw;
-    background-image: url('assets/images/dish-918613_1920@1X.png');
-    background-size: cover;
-    background-repeat: no-repeat;">
-        <div class="container-fluid" style="background-color: rgb(23, 9, 5);
-    ">
-        <div class="header py-3 container mx-5"
-                    style=" max-height: 98px;
-                    height: auto;
-                    width: 100%;
-                    display: flex;
-                    flex-wrap: wrap;    
-                    justify-content: space-between;">
-            <div style="float: left;" class="social-icon text-white">
-                <i style="color: white;" class="fab fa-facebook-f"></i>
-                <i style="font-weight: 500px;" class="fab fa-twitter px-3"></i>
-                <i style="font-weight: 500px;" class="fab fa-instagram"></i>
-                <i style="font-weight: 500px;" class="fab fa-youtube px-3"></i>
+    <div class="container-fluid" style="background-color: rgb(23, 9, 5);">
+        <!-- header -->
+        <div class="header py-3 container mx-5">
+            <div class="social-icon text-white">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter px-3"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube px-3"></i>
             </div>
 
-            <div style=" display: inline-block;" 
-                class="header-link">
-                    <a class="text-white" href="#">services/help</a>
+            <div class="header-link">
+                <a class="text-white" href="#">services/help</a>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div style="margin: -35px"  class="limo-icon">
-            <img style="
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 65px;
-            width: 85px;" src="assets/images/LimoLight_Final_Logo-01@1X.png" alt="">
-        </div>
+    <!-- slider -->
+    <div class="col-md-12 px-0" id="slider">
         
-    
-        <div class="container-fluid col-md-12 mt-3
-        ">
-            <div  class="container mx-5" >
-                <div class="col-lg-6" style="float: left;"> 
+        <!-- Logo -->
+        <div class="limo-icon">
+            <img class="limo-img" src="assets/images/LimoLight_Final_Logo-01@1X.png" alt="">
+        </div>
+
+        <!-- Search Bar -->
+        <div class="container-fluid col-lg-12 clo-sm-12">
+            <div class="search-bar py-3 container mx-5">
+                <div class="search-space px-0 col-lg-6 col-lg-6 col-sm-12">
                     <i class="fas fa-search"></i>
+                    <input size="12" class="ml-2 pl-2" type="text" placeholder="search" id="search-box">
                 </div>
-                <div class="col-lg-1 " style="float: right;">
-                    <i class="fal fa-user-alt"></i>
+
+                <div class="search-bar-icon pr-3">
+                    <i class="far fa-user  px-3"></i>
                     <i class="fas fa-shopping-basket"></i>
                 </div>
             </div>
         </div>
 
-    </div>
+        <div class="clearfix">
+        </div>
+
+        <!-- Nav -->
+        <div class="col-sm-12 nav-menu mt-2">
+            <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Resturant</a>    
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Categories</a>    
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Deals</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">About Us</a>
+            </li>
+        </ul>
+        </div>
+    
+        
     </div>
     
         
