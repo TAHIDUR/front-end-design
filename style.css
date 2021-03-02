@@ -180,3 +180,31 @@
     border-radius: 8px;
     padding: 10px 48px;
 }
+
+#work{
+    background-color: rgb(245, 245, 245);
+    width: 100vw;
+    height: 550px;
+}
+
+.work-header{
+    padding: 25px;
+}
+
+.work-color{
+    color: black;
+}
+
+.inside-work{
+    height: 308px;
+    width: 308px;
+    background-color: white;
+}
+
+.img-wrap{
+    width: 125px;
+    height: 118px;
+    margin-left: 92px;
+    margin-top: 34px;
+    margin-right: 91px;
+}
