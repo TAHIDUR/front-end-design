@@ -217,3 +217,26 @@
     width: 200px;
     margin: -50px 58px 33px 50px;
 }
+
+#client
+{
+    height: 550px;
+    background-color: white;
+}
+
+.client-header{
+    height: 41px;
+    width: 303px;
+    margin: 50px 430px 61px;
+
+}
+
+.client-desc{
+    /* height: 61px;
+    width: 788px;
+    margin: 152px; */
+}
+
+.client-img{
+
+}
